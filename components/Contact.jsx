@@ -1,9 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import { AiOutlineMail } from "react-icons/ai";
+import Image from 'next/image'
+import { AiOutlineMail, AiFillPhone, AiTwotoneMail } from "react-icons/ai";
+import { ImLocation } from "react-icons/im";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { ContactImg } from '../public/assets/contact.jpg'
 
 const Contact = () => {
   return (
@@ -17,10 +20,10 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
+                <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src=""
-                  alt=""
+                  src={ContactImg}
+                  alt="/"
                 />
               </div>
               <div>
@@ -29,6 +32,26 @@ const Contact = () => {
                 <p className="py-4">
                   Contact me and we can discuss what I can help
                 </p>
+
+                <div className="py-1">
+                  <p className="text-xl">
+                    <AiFillPhone className="text-3xl inline-block m-2" />
+                    09.3320.3310
+                  </p>
+                </div>
+
+                <div className="py-1">
+                  <p className="text-xl">
+                    <AiTwotoneMail className="text-3xl inline-block m-2" />
+                    nguyen.hai.dang@icloud.com
+                  </p>
+                </div>
+                <div className="py-1">
+                  <p className='text-xl'>
+                    <ImLocation className="text-3xl inline-block m-2" />
+                    Ho Chi Minh City
+                  </p>
+                </div>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
@@ -101,8 +124,8 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <HiOutlineChevronDoubleUp size={30} className='text-[#5651e5]' />
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp size={30} className="text-[#5651e5]" />
             </div>
           </Link>
         </div>

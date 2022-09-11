@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import UrlShortener from '../public/assets/projects/property.jpg'
+import UrlShortener from "../public/assets/projects/url-shortener.png";
 import CryptoImg from '../public/assets/projects/crypto.jpg'
 import NetflixIgm from '../public/assets/projects/netflix.jpg'
 import TwitchIgm from '../public/assets/projects/twitch.jpg'
@@ -18,23 +18,27 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
             title="URL shortener and File Sharing"
-                      backgroundImg={UrlShortener}
+            backgroundImg={UrlShortener}
             projectUrl="/urlShortener"
+            technologies="Python, Flask, HTML, Bootstrap"
           />
           <ProjectItems
             title="Crypto App"
-                      backgroundImg={CryptoImg}
+            backgroundImg={CryptoImg}
             projectUrl="/property"
+            technologies="Python, Flask, HTML, Bootstrap"
           />
           <ProjectItems
             title="Property Finder"
-                      backgroundImg={NetflixIgm}
+            backgroundImg={NetflixIgm}
             projectUrl="/property"
+            technologies="Python, Flask, HTML, Bootstrap"
           />
           <ProjectItems
             title="Property Finder"
-                      backgroundImg={TwitchIgm}
+            backgroundImg={TwitchIgm}
             projectUrl="/property"
+            technologies="Python, Flask, HTML, Bootstrap"
           />
         </div>
       </div>

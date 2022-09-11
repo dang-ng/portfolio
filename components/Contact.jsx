@@ -47,7 +47,7 @@ const Contact = () => {
                   </p>
                 </div>
                 <div className="py-1">
-                  <p className='text-xl'>
+                  <p className="text-xl">
                     <ImLocation className="text-3xl inline-block m-2" />
                     Ho Chi Minh City
                   </p>
@@ -57,10 +57,14 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
+                    <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+                      <FaLinkedinIn />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
+                    <a target="_blank" href="https://github.com/derek089">
+                      <FaGithub />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />

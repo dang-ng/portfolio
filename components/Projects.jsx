@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import UrlShortener from "../public/assets/projects/url-shortener.png";
-import CryptoImg from '../public/assets/projects/crypto.jpg'
+import Portfolio from '../public/assets/projects/portfolio.png'
 import NetflixIgm from '../public/assets/projects/netflix.jpg'
 import TwitchIgm from '../public/assets/projects/twitch.jpg'
 import ProjectItems from './ProjectItems'
@@ -23,10 +23,10 @@ const Projects = () => {
             technologies="Python, Flask, HTML, Bootstrap"
           />
           <ProjectItems
-            title="Crypto App"
-            backgroundImg={CryptoImg}
-            projectUrl="/property"
-            technologies="Python, Flask, HTML, Bootstrap"
+            title="Personal Portfolio"
+            backgroundImg={Portfolio}
+            projectUrl="/portfolio"
+            technologies="ReactJs, NextJs, Tailwind CSS"
           />
           <ProjectItems
             title="Property Finder"

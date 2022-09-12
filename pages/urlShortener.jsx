@@ -95,4 +95,4 @@ const urlShortener = () => {
   );
 }
 
-export default urlShortener
+export default urlShortener;

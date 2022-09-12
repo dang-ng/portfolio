@@ -19,21 +19,29 @@ const Main = () => {
             10-year experience in various industries. Have diverse knowledge and
             skills. Unique point of view on problem solving, progressive
             thinking and extreme hardworking.
-                  </p>
-                  <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <FaLinkedinIn />
-                    </div>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <FaGithub />
-                    </div>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <AiOutlineMail />
-                    </div>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <BsFillPersonLinesFill />
-                    </div>
-                  </div>
+          </p>
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+            </a>
+            <a target="_blank" href="https://github.com/derek089">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

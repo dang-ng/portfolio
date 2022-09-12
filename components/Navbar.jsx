@@ -15,7 +15,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (router.asPath === '/urlShortener' ||
-        router.asPath === '/crypto' 
+        router.asPath === '/portfolio' 
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
@@ -41,7 +41,8 @@ const Navbar = () => {
 },[])
 
     return (
-      <div style={{backgroundColor: `${navBg}`}}
+      <div
+        style={{ backgroundColor: `${navBg}` }}
         className={
           shadow
             ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -49,18 +50,17 @@ const Navbar = () => {
         }
       >
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-          <Link href='/' >
+          <Link href="/">
             <Image
-              className='cursor-pointer'
-            src="/../public/assets/navLogo.png"
-            alt="/"
-            height="100"
-            width="100"
-          />
-            
+              className="cursor-pointer"
+              src="/../public/assets/navLogo.png"
+              alt="/"
+              height="100"
+              width="100"
+            />
           </Link>
           <div>
-            <ul style={{color: `${linkColor}`}} className="hidden md:flex">
+            <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
               <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
               </Link>
@@ -107,13 +107,14 @@ const Navbar = () => {
           >
             <div>
               <div className="flex w-full items-center justify-between">
-                <Link href='/'>
-                <Image className='cursor-pointer'
-                  src="/../public/assets/navLogo.png"
-                  width="87"
-                  height="87"
-                  alt="/"
-                />
+                <Link href="/">
+                  <Image
+                    className="cursor-pointer"
+                    src="/../public/assets/navLogo.png"
+                    width="87"
+                    height="87"
+                    alt="/"
+                  />
                 </Link>
                 <div
                   onClick={handleNav}
@@ -131,38 +132,56 @@ const Navbar = () => {
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link href="/">
-                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">Home</li>
+                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">
+                    Home
+                  </li>
                 </Link>
                 <Link href="/#about">
-                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">About</li>
+                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">
+                    About
+                  </li>
                 </Link>
                 <Link href="/#skills">
-                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">Skills</li>
+                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">
+                    Skills
+                  </li>
                 </Link>
                 <Link href="/#projects">
-                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">Projects</li>
+                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">
+                    Projects
+                  </li>
                 </Link>
                 <Link href="/#contact">
-                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">Contact</li>
+                  <li /*onClick={()=>setNav(false)}*/ className="py-4 text-sm">
+                    Contact
+                  </li>
                 </Link>
               </ul>
-              <div className="pt-40">
+              <div className="pt-10">
                 <p className="uppercase tracking-widest text-[#5651e5]">
                   Let's connect
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

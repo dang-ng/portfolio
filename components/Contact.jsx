@@ -56,26 +56,42 @@ const Contact = () => {
               <div>
                 <p className="text-[#5651e5] uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <a target="_blank" href="https://www.linkedin.com/in/h-dang/">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/h-dang/"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a target="_blank" href="https://github.com/derek089">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/derek089"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
-                  <a target="_blank" href="https://github.com/derek089">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/derek089"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </a>
-                   <a target="_blank" href="https://github.com/derek089">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/derek089"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
-                  </div>
-                      </a>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

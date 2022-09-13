@@ -27,18 +27,19 @@ const portfolio = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Just want to talk more about this website that you're currently in
-            because i'm really proud of it! :)
+            Just want to talk more about this website that you are currently in
+            because i am really proud of it!
           </p>
           <br />
           <p>
             This is made by 2 really hot web frameworks ReactJs and NextJs so i
             decided to dive in to make new refresh online CV and learn these
-            great technologies at the same time. So, welcome to my home! :)
+            great technologies at the same time. So, welcome to my home!
           </p>
           <button className="px-8 py-2 mt-4">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/derek089/portfolio-nextjs"
             >
               Code

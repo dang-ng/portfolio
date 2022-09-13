@@ -49,17 +49,17 @@ const urlShortener = () => {
             your new URL. And there you go: the new URL generated for sharing
             too! Just share it to your friends and they can see your file, or
             new photos! Whenever your input URLs that not exists yet, it will
-            redirect to 404 page. Go back to home page and try again :) That's
+            redirect to 404 page. Go back to home page and try again :) That&apos;s
             it! thank you for reading! :)
             <br></br>
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a target="_blank" href="https://youtu.be/n9oz_E9DIsM">
+            <a rel="noreferrer" target="_blank" href="https://youtu.be/n9oz_E9DIsM">
               Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
-            <a target="_blank" href="https://github.com/derek089/url-shortener">
+            <a rel="noreferrer" target="_blank" href="https://github.com/derek089/url-shortener">
               Code
             </a>
           </button>

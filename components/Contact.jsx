@@ -6,7 +6,7 @@ import { ImLocation } from "react-icons/im";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import { ContactImg } from '../public/assets/contact.jpg'
+import ContactImg from '../public/assets/contact.jpg'
 
 const Contact = () => {
   return (

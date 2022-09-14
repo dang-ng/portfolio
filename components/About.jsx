@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
-
+import Signature from "../public/assets/my-signature.png";
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
             alt="signature"
             height="80"
             width="200"
-            src="/../public/assets/my-signature.png"
+            src={Signature}
           />
           <p className="py-2 text-xl text-gray-600">Nguyễn Hải Đăng</p>
           <Link

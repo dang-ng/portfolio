@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
-import Signature from "/../public/assets/my-signature.png";
+import Signature from "../public/assets/my-signature.png";
 import AboutImg from "../public/assets/about.jpg";
 
 const About = () => {

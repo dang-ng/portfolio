@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
+import NavLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -53,7 +54,7 @@ const Navbar = () => {
           <Link href="/">
             <Image
               className="cursor-pointer"
-              src="/../public/assets/navLogo.png"
+              src={NavLogo}
               alt="/"
               height="100"
               width="100"

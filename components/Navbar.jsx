@@ -19,7 +19,9 @@ const Navbar = () => {
     if (router.asPath === '/urlShortener' ||
       router.asPath === '/portfolio' ||
       router.asPath === '/calculator' ||
-      router.asPath === '/todoapp'
+      router.asPath === '/todoapp' ||
+      router.asPath === '/cs50' ||
+      router.asPath === '/funix'
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')

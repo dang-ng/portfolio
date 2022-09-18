@@ -20,13 +20,13 @@ const CS50x = () => {
           <h2 className="py-2">
             Harvard&apos;s Introduction to Computer Science
           </h2>
-          <h3>10-week intensive course from Harvard's University</h3>
+          <h3>10-week intensive course from Harvard&apos;s University</h3>
         </div>
       </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Harvard's CS50x</p>
+          <p>Harvard&apos;s CS50x</p>
           <h2>Class Overview</h2>
           <br></br>
           <p>

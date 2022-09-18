@@ -24,7 +24,7 @@ const Funix = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Harvard's CS50x</p>
+          <p>FUNIX entrepreneurship program</p>
           <h2>Class Overview</h2>
           <br></br>
           <p>
@@ -56,7 +56,8 @@ const Funix = () => {
             <p className="text-center font-bold pb-2">Technologies Learned</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />HTML, CSS, JavaScript
+                <RiRadioButtonFill className="pr-1" />
+                HTML, CSS, JavaScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />

@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import Portfolio from "../public/assets/projects/portfolio.png";
+import Calculator from "../public/assets/projects/calculator.png";
 import { RiRadioButtonFill } from 'react-icons/ri'
 
-const portfolio = () => {
+const calculator = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const portfolio = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Portfolio}
+          src={Calculator}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Personal Portfolio</h2>
-          <h3>ReactJs, NextJs, Tailwind CSS</h3>
+          <h2 className="py-2">Mini Project: Calculator</h2>
+          <h3>HTML, CSS, JavaScript</h3>
         </div>
       </div>
 
@@ -27,20 +27,30 @@ const portfolio = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Just want to talk more about this website that you are currently in
-            because i am really proud of it!
+            A simple, clean and beautiful calculator app which help me to learn
+            HTML, CSS and JavaScript.
           </p>
-          <br />
+          <br></br>
           <p>
-            This is made by 2 really hot web frameworks ReactJs and NextJs so i
-            decided to dive in to make new refresh online CV and learn these
-            great technologies at the same time. So, welcome to my home!
-          </p><br></br>
+            Easily switch between 2 themes: Light mode and Dark mode with only 1
+            click!
+          </p>
+          <br></br>
+
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://dang-ng.github.io/calculator/"
+            >
+              Link
+            </a>
+          </button>
           <button className="px-8 py-2 mt-4">
             <a
-              target="_blank"
               rel="noreferrer"
-              href="https://github.com/derek089/portfolio-nextjs"
+              target="_blank"
+              href="https://github.com/derek089/url-shortener"
             >
               Code
             </a>
@@ -52,15 +62,15 @@ const portfolio = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                ReactJs
+                HTML
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                NextJs
+                CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind CSS
+                JavaScript
               </p>
             </div>
           </div>
@@ -73,4 +83,4 @@ const portfolio = () => {
   );
 }
 
-export default portfolio;
+export default calculator;

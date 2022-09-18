@@ -1,7 +1,7 @@
 import React from 'react'
-import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsTelegram } from "react-icons/bs";
+import {SiZalo} from "react-icons/si"
 
 const Main = () => {
   return (
@@ -39,22 +39,18 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://www.linkedin.com/in/h-dang/"
-            >
+            <a rel="noreferrer" target="_blank" href="https://t.me/nhdang">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
+                <BsTelegram />
               </div>
             </a>
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/h-dang/"
+              href="https://zalo.me/0933203310"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
+                <SiZalo />
               </div>
             </a>
           </div>

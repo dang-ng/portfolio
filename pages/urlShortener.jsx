@@ -29,7 +29,7 @@ const urlShortener = () => {
           <p>
             There maybe many URL shorteners projects out there, but i found it
             quite great to start with because the project require to include
-            many technologies learned in the lecture like python, flask,
+            many technologies learned like python, flask,
             bootstrap, storing database and user cookies ... which is really
             help me to dive in and understand more about apply these
             technologies to real life.
@@ -38,21 +38,11 @@ const urlShortener = () => {
             This app includes 2 parts: URL shortener and file upload into short
             URL. Both are great for sharing with friends. </p><br></br>
           <p>
-            First you only need to input your desired URL you want to save for sharing/later uses. Then
-            you input new easy-remember URL of your own. Click Shorten and voilà,
-            new URL has been created Later when needed, just copy new URL and
-            send it to your friends or public elsewhere when they go to your
-            link, it will redirect to original URL. All your new URLs are saved
-            under cookies. Click it and it will also redirect to original URL.</p><br></br>
+            The first part is URL shortener, just need to input your desired URL you want to save for sharing/later uses, click Shorten and voilà, new URL has been created Later when needed to share with your friends or public elsewhere. </p><br></br>
             <p>The second part is file sharing, which also under the form of new URL. 
-            Click Choose File to select any file that you want to share Name of
-            your new URL. And there you go: the new URL generated for sharing
-            too! Just share it to your friends and they can see your file, or
-            new photos! Whenever your input URLs that not exists yet, it will
-            redirect to 404 page. Go back to home page and try again :) That&apos;s
-            it! thank you for reading! :)
+            Click Choose File to select any file that you want to share. Then you will have the new URL generated for sharing too, so they can see your file, or new photos when click your link!</p>
             <br></br>
-          </p>
+  
           <button className="px-8 py-2 mt-4 mr-8">
             <a rel="noreferrer" target="_blank" href="https://youtu.be/n9oz_E9DIsM">
               Demo

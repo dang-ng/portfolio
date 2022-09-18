@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { AiOutlineMail, AiFillPhone, AiTwotoneMail } from "react-icons/ai";
+import { AiFillPhone, AiTwotoneMail } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsTelegram } from "react-icons/bs";
+import { SiZalo } from "react-icons/si";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from '../public/assets/contact.jpg'
 
@@ -77,19 +78,19 @@ const Contact = () => {
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/derek089"
+                    href="https://t.me/nhdang"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <AiOutlineMail />
+                      <BsTelegram />
                     </div>
                   </a>
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/derek089"
+                    href="https://zalo.me/0933203310"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <BsFillPersonLinesFill />
+                      <SiZalo />
                     </div>
                   </a>
                 </div>

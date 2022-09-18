@@ -12,7 +12,7 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who I Am?</h2>
+          <h2 className="py-4">Introduction</h2>
           <p className="py-2 text-xl text-gray-600">
             With more than 10 years of experience in various industries, I have
             diverse knowledge and skills, unique point of view on problem

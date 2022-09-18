@@ -3,8 +3,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import UrlShortener from "../public/assets/projects/url-shortener.png";
 import Portfolio from '../public/assets/projects/portfolio.png'
-import NetflixIgm from '../public/assets/projects/netflix.jpg'
-import TwitchIgm from '../public/assets/projects/twitch.jpg'
+import Calculator from '../public/assets/projects/calculator.png'
+import Todoapp from '../public/assets/projects/todoapp.png'
+import Weather from "../public/assets/projects/weather-app.png";
 import ProjectItems from './ProjectItems'
 
 const Projects = () => {
@@ -17,28 +18,34 @@ const Projects = () => {
         <h2 className="py-4">What I Have Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
+            title="Personal Portfolio"
+            backgroundImg={Portfolio}
+            projectUrl="/portfolio"
+            technologies="ReactJs, NextJs, Tailwind CSS"
+          />
+            <ProjectItems
+              title="Mini Project: Calculator"
+              backgroundImg={Calculator}
+              projectUrl="/calculator"
+              technologies="HTML, CSS, JavaScript"
+            />
+          <ProjectItems
             title="URL shortener and File Sharing"
             backgroundImg={UrlShortener}
             projectUrl="/urlShortener"
             technologies="Python, Flask, HTML, Bootstrap"
           />
           <ProjectItems
-            title="Personal Portfolio"
-            backgroundImg={Portfolio}
-            projectUrl="/portfolio"
-            technologies="ReactJs, NextJs, Tailwind CSS"
+            title="Mini Project: To Do App"
+            backgroundImg={Todoapp}
+            projectUrl="/todoapp"
+            technologies="VueJs, ViteJs, CSS"
           />
           <ProjectItems
-            title="Property Finder"
-            backgroundImg={NetflixIgm}
-            projectUrl="/property"
-            technologies="Python, Flask, HTML, Bootstrap"
-          />
-          <ProjectItems
-            title="Property Finder"
-            backgroundImg={TwitchIgm}
-            projectUrl="/property"
-            technologies="Python, Flask, HTML, Bootstrap"
+            title="Mini Project: Weather Forecast"
+            backgroundImg={Weather}
+            projectUrl="/weather"
+            technologies="React JS, Tailwind and OpenWeatherMap API"
           />
         </div>
       </div>

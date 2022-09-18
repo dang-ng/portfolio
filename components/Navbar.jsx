@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsTelegram } from "react-icons/bs";
+import { SiZalo } from "react-icons/si";
 import { useRouter } from 'next/router';
 import NavLogo from "../public/assets/navLogo.png";
 
@@ -16,7 +17,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (router.asPath === '/urlShortener' ||
-        router.asPath === '/portfolio' 
+      router.asPath === '/portfolio' ||
+      router.asPath === '/calculator' ||
+      router.asPath === '/todoapp'
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
@@ -111,7 +114,7 @@ const Navbar = () => {
                 <Link href="/">
                   <Image
                     className="cursor-pointer"
-                    src="/../public/assets/navLogo.png"
+                    src={NavLogo}
                     width="87"
                     height="87"
                     alt="/"
@@ -133,27 +136,27 @@ const Navbar = () => {
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link href="/">
-                  <li onClick={()=>setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Home
                   </li>
                 </Link>
                 <Link href="/#about">
-                  <li onClick={()=>setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
                     About
                   </li>
                 </Link>
                 <Link href="/#skills">
-                  <li onClick={()=>setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Skills
                   </li>
                 </Link>
                 <Link href="/#projects">
-                  <li onClick={()=>setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Projects
                   </li>
                 </Link>
                 <Link href="/#contact">
-                  <li onClick={()=>setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Contact
                   </li>
                 </Link>
@@ -184,19 +187,19 @@ const Navbar = () => {
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/h-dang/"
+                    href="https://t.me/nhdang"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                      <AiOutlineMail />
+                      <BsTelegram />
                     </div>
                   </a>
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/h-dang/"
+                    href="https://zalo.me/0933203310"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                      <BsFillPersonLinesFill />
+                      <SiZalo />
                     </div>
                   </a>
                 </div>

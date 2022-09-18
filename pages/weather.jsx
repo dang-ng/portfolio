@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import Portfolio from "../public/assets/projects/portfolio.png";
+import Weather from "../public/assets/projects/weather-app.png";
 import { RiRadioButtonFill } from 'react-icons/ri'
 
-const portfolio = () => {
+const weather = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const portfolio = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Portfolio}
+          src={Weather}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Personal Portfolio</h2>
-          <h3>ReactJs, NextJs, Tailwind CSS</h3>
+          <h2 className="py-2">Mini Project: Weather Forecast</h2>
+          <h3>React JS, Tailwind and OpenWeatherMap API</h3>
         </div>
       </div>
 
@@ -27,22 +27,24 @@ const portfolio = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Just want to talk more about this website that you are currently in
-            because i am really proud of it!
-          </p>
-          <br />
-          <p>
-            This is made by 2 really hot web frameworks ReactJs and NextJs so i
-            decided to dive in to make new refresh online CV and learn these
-            great technologies at the same time. So, welcome to my home!
+            A weather app with React JS and Tailwind CSS using OpenWeatherMap
+            API. The build will also include hourly and daily forecasts.
+            Technologies used for this project are JavaScript, React, Tailwind
+            CSS, luxon, unicons, and react-toastify. It will fetch data from
+            OpenWeather endpoints, getting temperature, max min degree,
+            humidity, real feel, sunrise, sunset, hourly, and daily forecast. It
+            also displays the local time at the selected location. For input,
+            there are some quick links on top along with a text box for
+            searching a city and also a current location-based search.
           </p><br></br>
-          <button className="px-8 py-2 mt-4">
+
+          <button className="px-8 py-2 mt-4 mr-8">
             <a
-              target="_blank"
               rel="noreferrer"
-              href="https://github.com/derek089/portfolio-nextjs"
+              target="_blank"
+              href="https://github.com/dang-ng/weather-app"
             >
-              Code
+              Link
             </a>
           </button>
         </div>
@@ -56,11 +58,11 @@ const portfolio = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                NextJs
+                Tailwind CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind CSS
+                OpenWeatherMap API
               </p>
             </div>
           </div>
@@ -73,4 +75,4 @@ const portfolio = () => {
   );
 }
 
-export default portfolio;
+export default weather;

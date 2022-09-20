@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import Calculator from "../public/assets/projects/calculator.png";
+import Bootcamp from "../public/assets/projects/frontend-bootcamp.png";
 import { RiRadioButtonFill } from 'react-icons/ri'
 
-const calculator = () => {
+const bootcamp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const calculator = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Calculator}
+          src={Bootcamp}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Mini Project: Calculator</h2>
-          <h3>HTML, CSS, JavaScript</h3>
+          <h2 className="py-2">Mini Frontend Project: Frontend Bootcamp</h2>
+          <h3>HTML, Bootstrap, Custom CSS</h3>
         </div>
       </div>
 
@@ -27,13 +27,7 @@ const calculator = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A simple, clean and beautiful calculator app which help me to learn
-            HTML, CSS and JavaScript.
-          </p>
-          <br></br>
-          <p>
-            Easily switch between 2 themes: Light mode and Dark mode with only 1
-            click!
+            A simple, clean Frontend Bootcamp website.
           </p>
           <br></br>
 
@@ -41,7 +35,7 @@ const calculator = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://dang-ng.github.io/calculator/"
+              href="https://dang-ng.github.io/frontend-bootcamp/"
             >
               Link
             </a>
@@ -50,7 +44,7 @@ const calculator = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://github.com/dang-ng/calculator"
+              href="https://github.com/dang-ng/frontend-bootcamp"
             >
               Code
             </a>
@@ -66,11 +60,11 @@ const calculator = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                CSS
+                Bootstrap
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                JavaScript
+                Custom CSS
               </p>
             </div>
           </div>
@@ -83,4 +77,4 @@ const calculator = () => {
   );
 }
 
-export default calculator;
+export default bootcamp;

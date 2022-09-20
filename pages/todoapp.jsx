@@ -27,7 +27,7 @@ const todoapp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A Todo list application with Vue JS, Vite Js and the composition API, along with some more advanced features such as LocalStorage for saving data to the browser.
+            A Todo list application with Vue JS, Vite JS and the composition API, along with some more advanced features such as LocalStorage for saving data to the browser.
           </p><br></br>
 
           <button className="px-8 py-2 mt-4 mr-8">
@@ -46,11 +46,11 @@ const todoapp = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                VueJs
+                Vue JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                ViteJs
+                Vite JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />

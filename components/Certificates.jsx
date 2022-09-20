@@ -2,12 +2,14 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import CS50 from "../public/assets/certificates/CS50x.png";
+import Funix from "../public/assets/certificates/funix.png";
+
 
 import ProjectItems from './ProjectItems'
 
 const Certificates = () => {
   return (
-    <div id="projects" className="w-full">
+    <div id="certificates" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Certificates
@@ -22,7 +24,7 @@ const Certificates = () => {
           />
           <ProjectItems
             title="FUNIX entrepreneurship program"
-            backgroundImg={CS50}
+            backgroundImg={Funix}
             projectUrl="/funix"
             technologies="6-month job-ready course"
           />

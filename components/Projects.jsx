@@ -5,8 +5,10 @@ import UrlShortener from "../public/assets/projects/url-shortener.png";
 import Portfolio from '../public/assets/projects/portfolio.png'
 import Calculator from '../public/assets/projects/calculator.png'
 import Todoapp from '../public/assets/projects/todoapp.png'
-import Weather from "../public/assets/projects/weather-app.png";
+import Weather from "../public/assets/projects/weather-app.png"
+import Bootcamp from '../public/assets/projects/frontend-bootcamp.png'
 import ProjectItems from './ProjectItems'
+
 
 const Projects = () => {
   return (
@@ -46,6 +48,12 @@ const Projects = () => {
             backgroundImg={Weather}
             projectUrl="/weather"
             technologies="React JS, Tailwind and OpenWeatherMap API"
+          />
+          <ProjectItems
+            title="Mini Frontend Project: Frontend Bootcamp"
+            backgroundImg={Bootcamp}
+            projectUrl="/bootcamp"
+            technologies="HTML, Bootstrap, Custom CSS"
           />
         </div>
       </div>

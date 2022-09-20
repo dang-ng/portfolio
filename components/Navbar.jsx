@@ -21,7 +21,9 @@ const Navbar = () => {
       router.asPath === '/calculator' ||
       router.asPath === '/todoapp' ||
       router.asPath === '/cs50' ||
-      router.asPath === '/funix'
+      router.asPath === '/funix' ||
+      router.asPath === '/bootcamp' ||
+      router.asPath === '/weather'
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
@@ -78,6 +80,11 @@ const Navbar = () => {
               <Link href="/#skills">
                 <li className="ml-10 text-sm uppercase hover:border-b">
                   Skills
+                </li>
+              </Link>
+              <Link href="/#certificates">
+                <li className="ml-10 text-sm uppercase hover:border-b">
+                  Certificates
                 </li>
               </Link>
               <Link href="/#projects">
@@ -150,6 +157,11 @@ const Navbar = () => {
                 <Link href="/#skills">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Skills
+                  </li>
+                </Link>
+                <Link href="/#certificates">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Certificates
                   </li>
                 </Link>
                 <Link href="/#projects">

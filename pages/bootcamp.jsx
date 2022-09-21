@@ -26,9 +26,7 @@ const bootcamp = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-            A simple, clean Frontend Bootcamp website.
-          </p>
+          <p>A simple Frontend Bootcamp website with MapBox API.</p>
           <br></br>
 
           <button className="px-8 py-2 mt-4 mr-8">
@@ -65,6 +63,10 @@ const bootcamp = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Custom CSS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                MapBox API
               </p>
             </div>
           </div>

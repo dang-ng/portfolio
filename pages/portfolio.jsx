@@ -36,7 +36,7 @@ const portfolio = () => {
             decided to dive in to make new refresh online CV and learn these
             great technologies at the same time. So, welcome to my home!
           </p><br></br>
-          <button className="px-8 py-2 mt-4">
+          {/* <button className="px-8 py-2 mt-4">
             <a
               target="_blank"
               rel="noreferrer"
@@ -44,7 +44,7 @@ const portfolio = () => {
             >
               Code
             </a>
-          </button>
+          </button> */}
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -52,11 +52,11 @@ const portfolio = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                ReactJs
+                ReactJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                NextJs
+                NextJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />

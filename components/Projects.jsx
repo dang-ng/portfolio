@@ -23,7 +23,7 @@ const Projects = () => {
             title="Personal Portfolio"
             backgroundImg={Portfolio}
             projectUrl="/portfolio"
-            technologies="ReactJs, NextJs, Tailwind CSS"
+            technologies="ReactJS, NextJS, Tailwind CSS"
           />
             <ProjectItems
               title="Mini Project: Calculator"
@@ -41,13 +41,13 @@ const Projects = () => {
             title="Mini Project: To Do App"
             backgroundImg={Todoapp}
             projectUrl="/todoapp"
-            technologies="VueJs, ViteJs, CSS"
+            technologies="VueJS, ViteJS, CSS"
           />
           <ProjectItems
             title="Mini Project: Weather Forecast"
             backgroundImg={Weather}
             projectUrl="/weather"
-            technologies="React JS, Tailwind and OpenWeatherMap API"
+            technologies="ReactJS, Tailwind and OpenWeatherMap API"
           />
           <ProjectItems
             title="Mini Frontend Project: Frontend Bootcamp"

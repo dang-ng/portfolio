@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
 import Signature from "../public/assets/my-signature.png";
-import AboutImg from "../public/assets/about.jpg";
+import AboutImg from "../public/assets/avatar2.jpg";
 
 const About = () => {
   return (
@@ -47,7 +47,7 @@ const About = () => {
           <Image
             className="rounded-xl"
             width={200}
-            height={200}
+            height={420}
             src={AboutImg}
             alt="/"
           />

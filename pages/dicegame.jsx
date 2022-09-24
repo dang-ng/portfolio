@@ -32,7 +32,7 @@ const dicegame = () => {
           </p>
           <br></br>
           <p>
-            This also can be used to decide who buy drinks. 😉
+            First player reach 30 points wins! This also can be used to decide who buy drinks. 😉
           </p>
           <br></br>
 

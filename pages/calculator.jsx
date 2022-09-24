@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import Calculator from "../public/assets/projects/calculator-dark.png";
+import Calculator from "../public/assets/projects/calculator.png";
 import { RiRadioButtonFill } from 'react-icons/ri'
 
 const calculator = () => {

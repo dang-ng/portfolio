@@ -29,15 +29,15 @@ const Projects = () => {
             technologies="HTML, CSS, JavaScript"
           />
           <ProjectItems
-            title="Mini Game: Guess My Number!"
-            backgroundImg={Guessnumber}
-            projectUrl="/guessnumber"
-            technologies="HTML, CSS, JavaScript"
-          />
-          <ProjectItems
             title="Mini Game: Dice Roller"
             backgroundImg={Dicegame}
             projectUrl="/dicegame"
+            technologies="HTML, CSS, JavaScript"
+          />
+          <ProjectItems
+            title="Mini Game: Guess My Number!"
+            backgroundImg={Guessnumber}
+            projectUrl="/guessnumber"
             technologies="HTML, CSS, JavaScript"
           />
           <ProjectItems

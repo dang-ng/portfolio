@@ -23,7 +23,8 @@ const Navbar = () => {
       router.asPath === '/cs50' ||
       router.asPath === '/funix' ||
       router.asPath === '/bootcamp' ||
-      router.asPath === '/weather'
+      router.asPath === '/weather' ||
+      router.asPath === '/guessnumber'
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')

@@ -1,12 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import UrlShortener from "../public/assets/projects/url-shortener.png";
+import UrlShortener from "../public/assets/projects/url-shortener.png"
 import Portfolio from '../public/assets/projects/portfolio.png'
 import Calculator from '../public/assets/projects/calculator.png'
 import Todoapp from '../public/assets/projects/todoapp.png'
 import Weather from "../public/assets/projects/weather-app.png"
 import Bootcamp from '../public/assets/projects/frontend-bootcamp.png'
+import Guessnumber from "../public/assets/projects/guessnumber.png"
+
 import ProjectItems from './ProjectItems'
 
 
@@ -25,12 +27,18 @@ const Projects = () => {
             projectUrl="/portfolio"
             technologies="ReactJS, NextJS, Tailwind CSS"
           />
-            <ProjectItems
-              title="Mini Project: Calculator"
-              backgroundImg={Calculator}
-              projectUrl="/calculator"
-              technologies="HTML, CSS, JavaScript"
-            />
+          <ProjectItems
+            title="Mini Project: Calculator"
+            backgroundImg={Calculator}
+            projectUrl="/calculator"
+            technologies="HTML, CSS, JavaScript"
+          />
+          <ProjectItems
+            title="Mini Game: Guess My Number!"
+            backgroundImg={Guessnumber}
+            projectUrl="/guessnumber"
+            technologies="HTML, CSS, JavaScript"
+          />
           <ProjectItems
             title="URL shortener and File Sharing"
             backgroundImg={UrlShortener}
@@ -50,7 +58,7 @@ const Projects = () => {
             technologies="ReactJS, Tailwind and OpenWeatherMap API"
           />
           <ProjectItems
-            title="Mini Frontend Project: Frontend Bootcamp"
+            title="Mini Frontend Page: Frontend Bootcamp"
             backgroundImg={Bootcamp}
             projectUrl="/bootcamp"
             technologies="HTML, Bootstrap, Custom CSS"

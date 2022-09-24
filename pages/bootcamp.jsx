@@ -17,7 +17,7 @@ const bootcamp = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Mini Frontend Project: Frontend Bootcamp</h2>
+          <h2 className="py-2">Mini Frontend Page: Frontend Bootcamp</h2>
           <h3>HTML, Bootstrap, Custom CSS</h3>
         </div>
       </div>
@@ -26,7 +26,7 @@ const bootcamp = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>A simple Frontend Bootcamp website with MapBox API.</p>
+          <p>A simple, responsive Frontend Bootcamp website with MapBox API.</p>
           <br></br>
 
           <button className="px-8 py-2 mt-4 mr-8">

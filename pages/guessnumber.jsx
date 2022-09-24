@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import Calculator from "../public/assets/projects/calculator-dark.png";
+import Guessnumber from "../public/assets/projects/guessnumber2.png";
 import { RiRadioButtonFill } from 'react-icons/ri'
 
-const calculator = () => {
+const guessnumber = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,11 +13,11 @@ const calculator = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Calculator}
+          src={Guessnumber}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Mini Project: Calculator</h2>
+          <h2 className="py-2">Mini Game: Guess My Number!</h2>
           <h3>HTML, CSS, JavaScript</h3>
         </div>
       </div>
@@ -27,13 +27,12 @@ const calculator = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A clean and beautiful calculator app which help me to learn
-            HTML, CSS and JavaScript. It's also a useful tool for me to quickly calculate online, anytime!
+            A simple number guessing game between 1-20 and get your highscore!
+            You will have little hint everytime you input wrong number.
           </p>
           <br></br>
           <p>
-            Easily switch between 2 themes: Light mode and Dark mode with only 1
-            click!
+            Who will have highest score today?
           </p>
           <br></br>
 
@@ -41,7 +40,7 @@ const calculator = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://dang-ng.github.io/calculator/"
+              href="https://dang-ng.github.io/guess-number-game/"
             >
               Link
             </a>
@@ -50,7 +49,7 @@ const calculator = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://github.com/dang-ng/calculator"
+              href="https://github.com/dang-ng/guess-number-game"
             >
               Code
             </a>
@@ -83,4 +82,4 @@ const calculator = () => {
   );
 }
 
-export default calculator;
+export default guessnumber;

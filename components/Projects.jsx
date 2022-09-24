@@ -8,6 +8,7 @@ import Todoapp from '../public/assets/projects/todoapp.png'
 import Weather from "../public/assets/projects/weather-app.png"
 import Bootcamp from '../public/assets/projects/frontend-bootcamp.png'
 import Guessnumber from "../public/assets/projects/guessnumber.png"
+import Dicegame from "../public/assets/projects/dicegame.png"
 
 import ProjectItems from './ProjectItems'
 
@@ -22,12 +23,6 @@ const Projects = () => {
         <h2 className="py-4">What I Have Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
-            title="Personal Portfolio"
-            backgroundImg={Portfolio}
-            projectUrl="/portfolio"
-            technologies="ReactJS, NextJS, Tailwind CSS"
-          />
-          <ProjectItems
             title="Mini Project: Calculator"
             backgroundImg={Calculator}
             projectUrl="/calculator"
@@ -40,16 +35,28 @@ const Projects = () => {
             technologies="HTML, CSS, JavaScript"
           />
           <ProjectItems
-            title="URL shortener and File Sharing"
-            backgroundImg={UrlShortener}
-            projectUrl="/urlShortener"
-            technologies="Python, Flask, HTML, Bootstrap"
+            title="Mini Game: Dice Roller"
+            backgroundImg={Dicegame}
+            projectUrl="/dicegame"
+            technologies="HTML, CSS, JavaScript"
           />
           <ProjectItems
             title="Mini Project: To Do App"
             backgroundImg={Todoapp}
             projectUrl="/todoapp"
             technologies="VueJS, ViteJS, CSS"
+          />
+          <ProjectItems
+            title="Personal Portfolio"
+            backgroundImg={Portfolio}
+            projectUrl="/portfolio"
+            technologies="ReactJS, NextJS, Tailwind CSS"
+          />
+          <ProjectItems
+            title="URL shortener and File Sharing"
+            backgroundImg={UrlShortener}
+            projectUrl="/urlShortener"
+            technologies="Python, Flask, HTML, Bootstrap"
           />
           <ProjectItems
             title="Mini Project: Weather Forecast"

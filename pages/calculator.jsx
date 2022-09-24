@@ -28,7 +28,7 @@ const calculator = () => {
           <h2>Overview</h2>
           <p>
             A clean and beautiful calculator app which help me to learn
-            HTML, CSS and JavaScript. It's also a useful tool for me to quickly calculate online, anytime!
+            HTML, CSS and JavaScript. It&apos;s also a useful tool for me to quickly calculate online, anytime!
           </p>
           <br></br>
           <p>

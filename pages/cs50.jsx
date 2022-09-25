@@ -76,7 +76,11 @@ const CS50x = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Python, Flask
+                Algorithms &amp; Data Structures
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Python &amp; Flask framework
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -89,7 +93,7 @@ const CS50x = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#certificates">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

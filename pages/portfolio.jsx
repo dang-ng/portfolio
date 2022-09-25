@@ -33,7 +33,7 @@ const portfolio = () => {
           <br />
           <p>
             This is made by 2 really hot web frameworks ReactJs and NextJs so i
-            decided to dive in to make new refresh online CV and learn these
+            decided to dive in to make new refreshed online portfolio and learn these
             great technologies at the same time. So, welcome to my home!
           </p><br></br>
           {/* <button className="px-8 py-2 mt-4">

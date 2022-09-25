@@ -28,16 +28,39 @@ const Funix = () => {
           <h2>Class Overview</h2>
           <br></br>
           <p>
-            Introduction to the intellectual enterprises of computer science and
-            the art of programming.
+            The course serves as a preparation and also is a prerequisite for
+            students to continue the next journey in Professional Software
+            development career. The goal of the course is to help students
+            understand web programming with HTML/CSS/JavaScript and the core
+            Java programming language and object-oriented programming so that
+            they can visualize and model real-world problems in the computer
+            world.
           </p>
           <br></br>
+          <p>The course is divided into 2 stages, including 7 subjects:</p>
+          <br />
+          <ul>
+            <h4>STAGE 1: Prepare the foundation</h4>
+            <li>Subject 1: Building the first website</li>
+            <li>Subject 2: Programming techniques with JavaScript</li>
+          </ul>
+          <br />
+          <ul>
+            <h4>STAGE 2: Deep expertise Java programmer</h4>
+            <li>Subject 3: Object Oriented Programming</li>
+            <li>Subject 4: Data structures and algorithms</li>
+            <li>Subject 5: Database systems</li>
+            <li>Subject 6: Web application development</li>
+            <li>Subject 7: Mobile programming</li>
+          </ul>
+          <br />
           <p>
-            This course including ten problem sets, eight labs, and one final
-            project, teaches students how to think algorithmically and solve
-            problems efficiently. Topics include abstraction, algorithms, data
-            structures, encapsulation, resource management, security, software
-            engineering, and web programming.
+            For each lesson, students have to attentively watch lecture videos,
+            carefully read the text and the summary. In addition, students have
+            to complete the quizs/labs at the end of each lesson and the project
+            at the end of each module. During the learning process, students
+            will actively connect directly with Mentors to ask questions and get
+            answers about the course's content.
           </p>
           <br></br>
 
@@ -61,12 +84,24 @@ const Funix = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Java
+                Bootstrap
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Java Object Oriented Programming
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Data structures and algorithms
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Database systems
               </p>
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#certificates">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

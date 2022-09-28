@@ -60,7 +60,7 @@ const Funix = () => {
             to complete the quizs/labs at the end of each lesson and the project
             at the end of each module. During the learning process, students
             will actively connect directly with Mentors to ask questions and get
-            answers about the course's content.
+            answers about the course&apos;s content.
           </p>
           <br></br>
 

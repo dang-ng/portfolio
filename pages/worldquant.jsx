@@ -42,7 +42,7 @@ const Worldquant = () => {
             needed to succeed in professional business settings. By working
             together to address real-world problems, our students not only
             master essential skills but also learn to work effectively and to
-            meet the growing "soft skills" expectation of global employers.
+            meet the growing &quot;soft skills&quot; expectation of global employers.
           </p>
           <br />
           <p>

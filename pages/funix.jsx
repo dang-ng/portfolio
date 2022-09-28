@@ -18,7 +18,7 @@ const Funix = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">FUNIX entrepreneurship program</h2>
-          <h3>6-month job-ready course</h3>
+          <h3>Six-month job-ready course</h3>
         </div>
       </div>
 
@@ -71,6 +71,15 @@ const Funix = () => {
               href="https://cs50.harvard.edu/certificates/728ac79d-5a23-4598-9e81-e132c0ac25db"
             >
               Certificate ID
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://dang-ng.github.io/Assignment-03-Stater/"
+            >
+              Assignment 3: Responsive and Interactive CV
             </a>
           </button>
         </div>

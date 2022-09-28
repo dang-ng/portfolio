@@ -20,7 +20,7 @@ const CS50x = () => {
           <h2 className="py-2">
             Harvard&apos;s Introduction to Computer Science
           </h2>
-          <h3>10-week intensive course from Harvard&apos;s University</h3>
+          <h3>Ten-week intensive course from Harvard&apos;s University</h3>
         </div>
       </div>
 
@@ -66,6 +66,15 @@ const CS50x = () => {
               Certificate ID
             </a>
           </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/dang-ng/cs50"
+            >
+              All assignments and homeworks
+            </a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -89,6 +98,10 @@ const CS50x = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 SQL
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Cybersecurity
               </p>
             </div>
           </div>

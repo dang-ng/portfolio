@@ -12,7 +12,7 @@ import Nextjs from "../public/assets/skills/nextjs.png";
 import Python from "../public/assets/skills/python.png";
 import Vite from "../public/assets/skills/vitejs.png";
 import Vue from "../public/assets/skills/vue.png";
-import Bootstrap from "../public/assets/skills/tailwind.png";
+import Bootstrap from "../public/assets/skills/bootstrap.png";
 import Flask from "../public/assets/skills/flask.png";
 
 

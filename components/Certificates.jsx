@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import CS50 from "../public/assets/certificates/CS50x.png";
 import Funix from "../public/assets/certificates/funix.png";
+import Worldquant from "../public/assets/certificates/worldquant.png";
 
 
 import ProjectItems from './ProjectItems'
@@ -17,16 +18,22 @@ const Certificates = () => {
         <h2 className="py-4">What I Have Achieved</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
+            title="Master of Science in Financial Engineering"
+            backgroundImg={Worldquant}
+            projectUrl="/worldquant"
+            technologies="Two-year Master Degree from WorldQuant University"
+          />
+          <ProjectItems
             title="Harvard's Introduction to Computer Science"
             backgroundImg={CS50}
             projectUrl="/cs50"
-            technologies="10-week intensive course from Harvard's University"
+            technologies="Ten-week intensive course from Harvard's University"
           />
           <ProjectItems
             title="FUNIX entrepreneurship program"
             backgroundImg={Funix}
             projectUrl="/funix"
-            technologies="6-month job-ready course"
+            technologies="Six-month job-ready course"
           />
         </div>
       </div>

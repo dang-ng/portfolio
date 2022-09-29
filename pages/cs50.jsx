@@ -20,7 +20,7 @@ const CS50x = () => {
           <h2 className="py-2">
             Harvard&apos;s Introduction to Computer Science
           </h2>
-          <h3>Ten-week intensive course from Harvard&apos;s University</h3>
+          <h3>Ten-week intensive course from Harvard University</h3>
         </div>
       </div>
 
@@ -64,6 +64,15 @@ const CS50x = () => {
               href="https://cs50.harvard.edu/certificates/728ac79d-5a23-4598-9e81-e132c0ac25db"
             >
               Certificate ID
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://dang-ng.github.io/portfolio/urlShortener"
+            >
+              Final Project: File Sharing and URL Shortener
             </a>
           </button>
           <button className="px-8 py-2 mt-4 mr-8">

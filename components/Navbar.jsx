@@ -195,7 +195,7 @@ const Navbar = () => {
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/h-dang/"
+                    href="https://github.com/dang-ng"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                       <FaGithub />

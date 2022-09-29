@@ -53,7 +53,7 @@ const Projects = () => {
             technologies="ReactJS, NextJS, Tailwind CSS"
           />
           <ProjectItems
-            title="URL shortener and File Sharing"
+            title="File Sharing and URL Shortener"
             backgroundImg={UrlShortener}
             projectUrl="/urlShortener"
             technologies="Python, Flask, HTML, Bootstrap"

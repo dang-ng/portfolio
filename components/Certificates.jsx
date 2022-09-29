@@ -27,7 +27,7 @@ const Certificates = () => {
             title="Harvard's Introduction to Computer Science"
             backgroundImg={CS50}
             projectUrl="/cs50"
-            technologies="Ten-week intensive course from Harvard's University"
+            technologies="Ten-week intensive course from Harvard University"
           />
           <ProjectItems
             title="FUNIX entrepreneurship program"

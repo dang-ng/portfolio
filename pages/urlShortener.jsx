@@ -17,7 +17,7 @@ const urlShortener = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">URL Shortener and File Sharing</h2>
+          <h2 className="py-2">File Sharing and URL Shortener</h2>
           <h3>Python, Flask, HTML, Bootstrap</h3>
         </div>
       </div>
@@ -27,29 +27,58 @@ const urlShortener = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            There maybe many URL shorteners projects out there, but i found it
-            quite great to start with because the project require to include
-            many technologies learned like python, flask,
-            bootstrap, storing database and user cookies ... which is really
-            help me to dive in and understand more about apply these
-            technologies to real life.
-          </p><br></br>
+            There maybe many File sharing &amp; URL shortener projects out
+            there, but i found it quite great to start with because the project
+            require to include many technologies learned in the lecture like
+            python, flask, bootstrap, storing database and user cookies ...
+            which is really help me to dive in and understand more about apply
+            these technologies to real life.
+          </p>
+          <br></br>
           <p>
             This app includes 2 parts: URL shortener and file upload into short
-            URL. Both are great for sharing with friends. </p><br></br>
+            URL. Both are great for sharing with friends.{" "}
+          </p>
+          <br></br>
           <p>
-            The first part is URL shortener, just need to input your desired URL you want to save for sharing/later uses, click Shorten and voilà, new URL has been created Later when needed to share with your friends or public elsewhere. </p><br></br>
-            <p>The second part is file sharing, which also under the form of new URL. 
-            Click Choose File to select any file that you want to share. Then you will have the new URL generated for sharing too, so they can see your file, or new photos when click your link!</p>
-            <br></br>
-  
+            The first part is URL shortener, just need to input your desired URL
+            you want to save for sharing/later uses, click Shorten and voilà,
+            new URL has been created Later when needed to share with your
+            friends or public elsewhere.{" "}
+          </p>
+          <br></br>
+          <p>
+            The second part is file sharing, which also under the form of new
+            URL. Click Choose File to select any file that you want to share.
+            Then you will have the new URL generated for sharing too, so they
+            can see your file, or new photos when click your link!
+          </p>
+          <br></br>
+
           <button className="px-8 py-2 mt-4 mr-8">
-            <a rel="noreferrer" target="_blank" href="https://youtu.be/n9oz_E9DIsM">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://url-shortener-njtb5iyc2a-as.a.run.app/"
+            >
+              Link
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://youtu.be/n9oz_E9DIsM"
+            >
               Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
-            <a rel="noreferrer" target="_blank" href="https://github.com/derek089/url-shortener">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/derek089/url-shortener"
+            >
               Code
             </a>
           </button>

@@ -64,7 +64,7 @@ const Funix = () => {
           </p>
           <br></br>
 
-          <button className="px-8 py-2 mt-4 mr-8">
+          {/* <button className="px-8 py-2 mt-4 mr-8">
             <a
               rel="noreferrer"
               target="_blank"
@@ -72,7 +72,7 @@ const Funix = () => {
             >
               Certificate ID
             </a>
-          </button>
+          </button> */}
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               rel="noreferrer"

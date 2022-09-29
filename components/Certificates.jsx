@@ -17,12 +17,12 @@ const Certificates = () => {
         </p>
         <h2 className="py-4">What I Have Achieved</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItems
+          {/* <ProjectItems
             title="Master of Science in Financial Engineering"
             backgroundImg={Worldquant}
             projectUrl="/worldquant"
             technologies="Two-year Master Degree from WorldQuant University"
-          />
+          /> */}
           <ProjectItems
             title="Harvard's Introduction to Computer Science"
             backgroundImg={CS50}

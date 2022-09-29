@@ -23,7 +23,7 @@ const About = () => {
           <p className="py-2 text-xl text-gray-600">
             Accordingly, I would be very interested in speaking to you to
             discuss the value that my experience can deliver by being reached at
-            09.3320.3310. Please feel free to contact me for any information on
+            (+84) 9.3320.3310. Please feel free to contact me for any information on
             this portfolio. Looking forward to hearing from you.
           </p>
           <p className="py-2 pb-10 text-xl text-gray-600">Sincerely,</p>

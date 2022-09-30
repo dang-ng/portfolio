@@ -7,6 +7,7 @@ import { BsTelegram } from "react-icons/bs";
 import { SiZalo } from "react-icons/si";
 import { useRouter } from 'next/router';
 import NavLogo from "../public/assets/navLogo.png";
+import NavLogo2 from "../public/assets/navLogo2.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -14,6 +15,41 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('#ecf0f3')
   const [linkColor, setLinkColor] = useState('#1f2937')
   const router = useRouter()
+
+  useEffect(() => {
+    const linkInside = () => {
+      if ((router.asPath === '/urlShortener' ||
+      router.asPath === '/portfolio' ||
+      router.asPath === '/calculator' ||
+      router.asPath === '/todoapp' ||
+      router.asPath === '/cs50' ||
+      router.asPath === '/funix' ||
+      router.asPath === '/bootcamp' ||
+      router.asPath === '/weather' ||
+      router.asPath === '/guessnumber' ||
+      router.asPath === '/dicegame' ||
+      router.asPath === '/worldquant'
+    ) && window.scrollY >= 200) {
+        setLinkColor("#1f2937");
+      } else if (
+        (router.asPath === "/urlShortener" ||
+          router.asPath === "/portfolio" ||
+          router.asPath === "/calculator" ||
+          router.asPath === "/todoapp" ||
+          router.asPath === "/cs50" ||
+          router.asPath === "/funix" ||
+          router.asPath === "/bootcamp" ||
+          router.asPath === "/weather" ||
+          router.asPath === "/guessnumber" ||
+          router.asPath === "/dicegame" ||
+          router.asPath === "/worldquant") &&
+        window.scrollY < 200
+      ) {
+        setLinkColor("#ecf0f3");
+      }
+    };
+    window.addEventListener("scroll", linkInside);
+  }, []);
 
   useEffect(() => {
     if (router.asPath === '/urlShortener' ||
@@ -43,7 +79,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
-      setShadow(true)
+        setShadow(true)
       } else {
         setShadow(false)
     }
@@ -101,7 +137,11 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div onClick={handleNav} className="md:hidden cursor-pointer">
+            <div
+              onClick={handleNav}
+              style={{ color: `${linkColor}` }}
+              className="md:hidden cursor-pointer"
+            >
               <AiOutlineMenu size={25} />
             </div>
           </div>

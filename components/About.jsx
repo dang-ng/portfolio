@@ -6,7 +6,7 @@ import AboutImg from "../public/assets/avatar2.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:min-h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
@@ -17,8 +17,7 @@ const About = () => {
             With more than 10 years of experience in various industries, I have
             diverse knowledge and skills, unique point of view on problem
             solving, progressive thinking. I am extremely hard working,
-            conscientious, always looking for ways to improve processes, quality
-            through effective internal and external communication.
+            conscientious, always looking for ways to improve processes.
           </p>
           <p className="py-2 text-xl text-gray-600">
             Accordingly, I would be very interested in speaking to you to

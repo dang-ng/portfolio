@@ -70,7 +70,7 @@ const CS50x = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://dang-ng.github.io/portfolio/urlShortener"
+              href="/urlShortener"
             >
               Final Project: File Sharing and URL Shortener
             </a>

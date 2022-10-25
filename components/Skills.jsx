@@ -24,7 +24,7 @@ const Skills = () => {
           Skills
         </p>
         <h2 className="py-4">Technologies I&apos;ve been working on</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -119,16 +119,6 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Github} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col justify-center items-center">
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
                 <Image src={Python} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col justify-center items-center">
@@ -136,7 +126,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Flask} width="64px" height="64px" alt="/" />
@@ -145,7 +135,7 @@ const Skills = () => {
                 <h3>Flask</h3>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

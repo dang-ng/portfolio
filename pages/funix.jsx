@@ -37,21 +37,30 @@ const Funix = () => {
             world.
           </p>
           <br></br>
-          <p>The course is divided into 2 stages, including 7 subjects:</p>
+          <p>The course is divided into 4 main subjects:</p>
           <br />
           <ul>
-            <h4>STAGE 1: Prepare the foundation</h4>
-            <li>Subject 1: Building the first website</li>
-            <li>Subject 2: Programming techniques with JavaScript</li>
+            <h4>SUBJECT 1: Prepare the foundation</h4>
+            <li>Building the first website</li>
+            <li>Programming techniques with JavaScript & Bootstrap</li>
           </ul>
           <br />
           <ul>
-            <h4>STAGE 2: Deep expertise Java programmer</h4>
-            <li>Subject 3: Object Oriented Programming</li>
-            <li>Subject 4: Data structures and algorithms</li>
-            <li>Subject 5: Database systems</li>
-            <li>Subject 6: Web application development</li>
-            <li>Subject 7: Mobile programming</li>
+            <h4>SUBJECT 2: Deep expertise Java programmer</h4>
+            <li>Object Oriented Programming foundation</li>
+            <li>Data structures and algorithms</li>
+          </ul>
+          <br />
+          <ul>
+            <h4>SUBJECT 3: SQL Database systems</h4>
+            <li>Database systems</li>
+            <li>T-SQL, Microsoft SQL Server and Azure Data Studio</li>
+          </ul>
+          <br />
+          <ul>
+            <h4>SUBJECT 4: Java Web & Mobile Developments</h4>
+            <li>Web application development with Spring framework</li>
+            <li>Mobile programming with Android Studio</li>
           </ul>
           <br />
           <p>
@@ -60,7 +69,7 @@ const Funix = () => {
             to complete the quizs/labs at the end of each lesson and the project
             at the end of each module. During the learning process, students
             will actively connect directly with Mentors to ask questions and get
-            answers about the course&apos;s content.
+            answers about the course&apos;s contents.
           </p>
           <br></br>
 
@@ -74,11 +83,7 @@ const Funix = () => {
             </a>
           </button> */}
           <button className="px-8 py-2 mt-4 mr-8">
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://dang-ng.github.io/portfolio/bootcamp"
-            >
+            <a rel="noreferrer" target="_blank" href="/bootcamp">
               Homework: Frontend Bootcamp
             </a>
           </button>
@@ -88,7 +93,16 @@ const Funix = () => {
               target="_blank"
               href="https://dang-ng.github.io/Assignment-03-Stater/"
             >
-              Final Assignment Stage 1: Responsive and Interactive CV
+              Final Assignment Subject 1: Responsive and Interactive CV
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/dang-ng/FUNIX-projects/tree/master/PRO192x_Project_FX18891/vn.funix.fx18891.java"
+            >
+              Final Assignment Subject 2: Java banking management system
             </a>
           </button>
         </div>

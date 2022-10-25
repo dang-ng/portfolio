@@ -106,7 +106,7 @@ const urlShortener = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/portfolio/cs50">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

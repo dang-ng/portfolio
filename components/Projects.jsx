@@ -53,23 +53,23 @@ const Projects = () => {
             technologies="ReactJS, NextJS, Tailwind CSS"
           />
           <ProjectItems
-            title="File Sharing and URL Shortener"
-            backgroundImg={UrlShortener}
-            projectUrl="/urlShortener"
-            technologies="Python, Flask, HTML, Bootstrap"
-          />
-          <ProjectItems
             title="Mini Project: Weather Forecast"
             backgroundImg={Weather}
             projectUrl="/weather"
             technologies="ReactJS, Tailwind and OpenWeatherMap API"
           />
-          <ProjectItems
+          {/* <ProjectItems
             title="Mini Frontend Page: Frontend Bootcamp"
             backgroundImg={Bootcamp}
             projectUrl="/bootcamp"
             technologies="HTML, Bootstrap, Custom CSS"
-          />
+          /> */}
+          {/* <ProjectItems
+            title="File Sharing and URL Shortener"
+            backgroundImg={UrlShortener}
+            projectUrl="/urlShortener"
+            technologies="Python, Flask, HTML, Bootstrap"
+          /> */}
         </div>
       </div>
     </div>

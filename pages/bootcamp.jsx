@@ -71,7 +71,7 @@ const bootcamp = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/portfolio/funix">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

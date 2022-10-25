@@ -76,7 +76,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Vite} width="64px" height="64px" alt="/" />
@@ -85,8 +85,8 @@ const Skills = () => {
                 <h3>Vite JS</h3>
               </div>
             </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          </div> */}
+          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Vue} width="64px" height="64px" alt="/" />
@@ -95,7 +95,7 @@ const Skills = () => {
                 <h3>Vue JS</h3>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">

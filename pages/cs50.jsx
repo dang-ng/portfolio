@@ -70,7 +70,7 @@ const CS50x = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="/urlShortener"
+              href="/portfolio/urlShortener"
             >
               Final Project: File Sharing and URL Shortener
             </a>

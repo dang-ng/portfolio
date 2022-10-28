@@ -6,7 +6,10 @@ import AboutImg from "../public/assets/avatar2.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:min-h-screen p-2 flex items-center py-16">
+    <div
+      id="about"
+      className="w-full md:min-h-screen p-2 flex items-center py-16"
+    >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
@@ -22,25 +25,33 @@ const About = () => {
           <p className="py-2 text-xl text-gray-600">
             Accordingly, I would be very interested in speaking to you to
             discuss the value that my experience can deliver by being reached at
-            (+84) 9.3320.3310. Please feel free to contact me for any information on
-            this portfolio. Looking forward to hearing from you.
+            (+84) 9.3320.3310. Please feel free to contact me for any
+            information on this portfolio. Looking forward to hearing from you.
           </p>
           <p className="py-2 pb-10 text-xl text-gray-600">Sincerely,</p>
-          <Image
-            alt="signature"
-            height="80"
-            width="200"
-            src={Signature}
-          />
+          <Image alt="signature" height="80" width="200" src={Signature} />
           <p className="py-2 text-xl text-gray-600">Nguyễn Hải Đăng</p>
-          <Link
-            href="/#projects"
-            className="py-2 text-xl text-gray-600 cursor-pointer"
-          >
-            <a className="underline">
-              Check out some of my latest projects below.
-            </a>
-          </Link>
+          <p>
+            Check out my profile on{" "}
+            <Link
+              href="https://www.hackerrank.com/nguyen_hai_dang"
+              className="py-2 text-xl text-gray-600 cursor-pointer"
+            >
+              <a rel="noreferrer" target="_blank" className="underline">
+                HackerRank
+              </a>
+            </Link>{" "}
+            and{" "}
+            <Link
+              href="https://leetcode.com/derekn/"
+              className="py-2 text-xl text-gray-600 cursor-pointer"
+            >
+              <a rel="noreferrer" target="_blank" className="underline">
+                Leetcode
+              </a>
+            </Link>
+            .
+          </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p4 hover:scale-105 ease-in duration-300">
           <Image

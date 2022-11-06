@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
 import Signature from "../public/assets/my-signature.png";
-import AboutImg from "../public/assets/avatar2.jpg";
+import AboutImg from "../public/assets/avatar.jpg";
 
 const About = () => {
   return (

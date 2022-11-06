@@ -61,17 +61,13 @@ const CS50x = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://cs50.harvard.edu/certificates/728ac79d-5a23-4598-9e81-e132c0ac25db"
+              href="https://drive.google.com/file/d/1vG6GZ1LcGVhhfY-F2K0nOoE8rzObRHTr/view?usp=sharing"
             >
               Certificate ID
             </a>
           </button>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="/portfolio/urlShortener"
-            >
+            <a rel="noreferrer" target="_blank" href="/portfolio/urlShortener">
               Final Project: File Sharing and URL Shortener
             </a>
           </button>

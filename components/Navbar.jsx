@@ -16,45 +16,10 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState('#1f2937')
   const router = useRouter()
 
-  // useEffect(() => {
-  //   const linkInside = () => {
-  //     if ((
-  //     router.asPath === '/urlShortener' ||
-  //     router.asPath === '/portfolio' ||
-  //     router.asPath === '/calculator' ||
-  //     router.asPath === '/todoapp' ||
-  //     router.asPath === '/cs50' ||
-  //     router.asPath === '/funix' ||
-  //     router.asPath === '/bootcamp' ||
-  //     router.asPath === '/weather' ||
-  //     router.asPath === '/guessnumber' ||
-  //     router.asPath === '/dicegame' ||
-  //     router.asPath === '/worldquant'
-  //     ) && window.scrollY >= 200) {
-  //       setNavBg("#ecf0f3");
-  //       setLinkColor("#1f2937");
-  //     } else if ((
-  //         router.asPath === "/urlShortener" ||
-  //         router.asPath === "/portfolio" ||
-  //         router.asPath === "/calculator" ||
-  //         router.asPath === "/todoapp" ||
-  //         router.asPath === "/cs50" ||
-  //         router.asPath === "/funix" ||
-  //         router.asPath === "/bootcamp" ||
-  //         router.asPath === "/weather" ||
-  //         router.asPath === "/guessnumber" ||
-  //         router.asPath === "/dicegame" ||
-  //       router.asPath === "/worldquant"
-  //     ) && window.scrollY < 200) {
-  //       setNavBg("transparent");
-  //       setLinkColor("#ecf0f3");
-  //     }
-  //   };
-  //   window.addEventListener("scroll", linkInside);
-  // }, [router]);
-
   useEffect(() => {
-    if (router.asPath === '/urlShortener' ||
+    const linkInside = () => {
+      if ((
+      router.asPath === '/urlShortener' ||
       router.asPath === '/portfolio' ||
       router.asPath === '/calculator' ||
       router.asPath === '/todoapp' ||
@@ -65,18 +30,43 @@ const Navbar = () => {
       router.asPath === '/guessnumber' ||
       router.asPath === '/dicegame' ||
       router.asPath === '/worldquant'
-    ) {
-      setNavBg('transparent')
-      setLinkColor('#ecf0f3')
-    } else {
-      setNavBg('#ecf0f3')
-      setLinkColor('#1f2937')
-    }
-},[router])
+      ) && window.scrollY < 200) {
+        setNavBg("transparent");
+        setLinkColor("#ecf0f3");
+      } else {
+        setNavBg("#ecf0f3");
+        setLinkColor("#1f2937");
+      }
+    };
+    window.addEventListener("scroll", linkInside);
+  }, [router]);
 
   const handleNav = () => {
-    setNav(!nav)
-  }
+    setNav(!nav);
+  };
+
+//   useEffect(() => {
+//     if (router.asPath === '/urlShortener' ||
+//       router.asPath === '/portfolio' ||
+//       router.asPath === '/calculator' ||
+//       router.asPath === '/todoapp' ||
+//       router.asPath === '/cs50' ||
+//       router.asPath === '/funix' ||
+//       router.asPath === '/bootcamp' ||
+//       router.asPath === '/weather' ||
+//       router.asPath === '/guessnumber' ||
+//       router.asPath === '/dicegame' ||
+//       router.asPath === '/worldquant'
+//     ) {
+//       setNavBg('transparent')
+//       setLinkColor('#ecf0f3')
+//     } else {
+//       setNavBg('#ecf0f3')
+//       setLinkColor('#1f2937')
+//     }
+// },[router])
+
+  
 
   useEffect(() => {
     const handleShadow = () => {

@@ -67,17 +67,17 @@ const CS50x = () => {
             </a>
           </button>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a rel="noreferrer" target="_blank" href="/portfolio/urlShortener">
-              Final Project: File Sharing and URL Shortener
-            </a>
-          </button>
-          <button className="px-8 py-2 mt-4 mr-8">
             <a
               rel="noreferrer"
               target="_blank"
               href="https://github.com/dang-ng/cs50"
             >
               All assignments and homeworks
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a rel="noreferrer" target="_blank" href="/portfolio/urlShortener">
+              Final Project: File Sharing and URL Shortener
             </a>
           </button>
         </div>

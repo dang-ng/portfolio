@@ -17,6 +17,15 @@ const Navbar = () => {
   const [NavLogo, setNavLogo] = useState(NavLo)
   const router = useRouter()
 
+useEffect(() => {
+  const toHome = () => {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
+      setNavLogo(NavLo);
+  };
+  document.querySelectorAll('.backtohome').forEach(item => { item.addEventListener("click", toHome) });
+},[]);
+
   useEffect(() => {
     const linkInside = () => {
       if ((
@@ -34,15 +43,16 @@ const Navbar = () => {
       ) && window.scrollY < 200) {
         setNavBg("transparent");
         setLinkColor("#ecf0f3");
-        setNavLogo(NavLo2)
+        setNavLogo(NavLo2);
       } else {
         setNavBg("#ecf0f3");
         setLinkColor("#1f2937");
-        setNavLogo(NavLo)
+        setNavLogo(NavLo);
       }
     };
     window.addEventListener("scroll", linkInside);
   }, [router]);
+
 
   const handleNav = () => {
     setNav(!nav);
@@ -94,7 +104,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
           <Link href="/">
             <Image
-              className="cursor-pointer"
+              className="backtohome cursor-pointer"
               src={NavLogo}
               alt="/"
               height="100"
@@ -104,7 +114,9 @@ const Navbar = () => {
           <div>
             <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
               <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+                <li className="backtohome ml-10 text-sm uppercase hover:border-b">
+                  Home
+                </li>
               </Link>
               <Link href="/#about">
                 <li className="ml-10 text-sm uppercase hover:border-b">
@@ -160,7 +172,8 @@ const Navbar = () => {
               <div className="flex w-full items-center justify-between">
                 <Link href="/">
                   <Image
-                    className="cursor-pointer"
+                    onClick={handleNav}
+                    className="backtohome cursor-pointer"
                     src={NavLo}
                     width="87"
                     height="87"
@@ -183,7 +196,10 @@ const Navbar = () => {
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link href="/">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  <li
+                    onClick={() => setNav(false)}
+                    className="backtohome py-4 text-sm"
+                  >
                     Home
                   </li>
                 </Link>

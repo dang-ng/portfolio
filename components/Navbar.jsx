@@ -6,14 +6,15 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
 import { SiZalo } from "react-icons/si";
 import { useRouter } from 'next/router';
-import NavLogo from "../public/assets/navLogo.png";
-import NavLogo2 from "../public/assets/navLogo2.png";
+import NavLo from "../public/assets/navLogo.png";
+import NavLo2 from "../public/assets/navLogo2.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
   const [navBg, setNavBg] = useState('#ecf0f3')
   const [linkColor, setLinkColor] = useState('#1f2937')
+  const [NavLogo, setNavLogo] = useState(NavLo)
   const router = useRouter()
 
   useEffect(() => {
@@ -33,9 +34,11 @@ const Navbar = () => {
       ) && window.scrollY < 200) {
         setNavBg("transparent");
         setLinkColor("#ecf0f3");
+        setNavLogo(NavLo2)
       } else {
         setNavBg("#ecf0f3");
         setLinkColor("#1f2937");
+        setNavLogo(NavLo)
       }
     };
     window.addEventListener("scroll", linkInside);
@@ -158,7 +161,7 @@ const Navbar = () => {
                 <Link href="/">
                   <Image
                     className="cursor-pointer"
-                    src={NavLogo}
+                    src={NavLo}
                     width="87"
                     height="87"
                     alt="/"

@@ -24,7 +24,7 @@ const Funix = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>FUNIX entrepreneurship program</p>
+          <p>FUNIX-FPT technology school</p>
           <h2>Class Overview</h2>
           <br></br>
           <p>
@@ -73,15 +73,15 @@ const Funix = () => {
           </p>
           <br></br>
 
-          {/* <button className="px-8 py-2 mt-4 mr-8">
+          <button className="px-8 py-2 mt-4 mr-8">
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://cs50.harvard.edu/certificates/728ac79d-5a23-4598-9e81-e132c0ac25db"
+              href="https://drive.google.com/file/d/1a1RX5rVOu6avPOEJdry_lxD5uh6egeCN/view?usp=sharing"
             >
-              Certificate ID
+              Certificate Link
             </a>
-          </button> */}
+          </button>
           <button className="px-8 py-2 mt-4 mr-8">
             <a rel="noreferrer" target="_blank" href="/portfolio/bootcamp">
               Homework: Frontend Bootcamp
